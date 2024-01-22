@@ -15,39 +15,7 @@ body {font-family: Arial;}
 <li>Tenant root group is default group</li>
 <li>Nested management group are supported</li>
 </ul>
-<p><img src="management_group_hierarchy.jpg" alt="Alt text"></p>
-<ul>
-<li>Subscriptions are tied to a tenant, AZ AD tenant</li>
-</ul>
-<h2 id="resource-group">Resource Group</h2>
-<ul>
-<li>organize related resources in a group</li>
-<li>helps application of Azure Policies and RBAC</li>
-<li>manage identity and access management</li>
-<li>track cost and create budget</li>
-<li>Resource Group can be created using:<ul>
-<li>Azure portal</li>
-<li>Azure CLI, Powershell</li>
-<li>ARM templates, Rest API</li>
-</ul>
-</li>
-<li>Moving resources between Resource Groups<ul>
-<li>does not change resource region/location</li>
-<li>resource id changes</li>
-<li>resource loose the RBAC policy of previous RG</li>
-</ul>
-</li>
-<li>Deleting Resource Group<ul>
-<li>deletes all resources in the resource group</li>
-</ul>
-</li>
-</ul>
-<h2 id="resource-locks">Resource Locks</h2>
-<ul>
-<li>prevent accidental deletion or modification of resources</li>
-<li>Can be applied at subscription, resource group, individual resource</li>
-<li>The lock overrides any user permissions.</li>
-</ul>
+
 
 
 </body>
